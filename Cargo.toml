@@ -1,0 +1,16 @@
+[package]
+name = "RustySolutions"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "RustySolutions"
+path = "ForAnalyzer.rs"
+
+[dependencies]
+
+[workspace]
+members = [
+    "src/1/1",
+    "src/1/2"
+, "src/1/3"]
