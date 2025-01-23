@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ "$#" -ne 3 ]; then
+    echo "Usage: bash $0 <level> <level> <task number>"
+    exit 1
+fi
+
+echo Running: cargo init --name solution_"$1"_"$2"_"$3" --vcs=none "$PWD/src/$1/$2/$3"
+cargo init --name solution_"$1"_"$2"_"$3" --vcs=none "$PWD/src/$1/$2/$3" > /dev/null 2>&1
+status_code=$?
+
+if [ $status_code -ne 0 ]; then
+    echo Error: The cargo init --name solution_"$1"_"$2"_"$3" --vcs=none "$PWD/src/$1/$2/$3" team ended with an error" (error code: $status_code)"
+    exit 1
+fi
+
+echo Project successfully initialized: solution_"$1"_"$2"_"$3"
