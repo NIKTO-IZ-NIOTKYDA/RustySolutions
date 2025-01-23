@@ -1,3 +1,11 @@
+/*
+    Task:          4
+    Level:         1.1
+    Author:        https://github.com/NIKTO-IZ-NIOTKYDA
+    Task URL:      https://code.mu/en/rust/tasker/stager/1/1/
+    Repository:    https://github.com/NIKTO-IZ-NIOTKYDA/RustySolutions
+*/
+
 fn main() {
     let word1: &str = "abc";
     let word2: &str = "ade";
