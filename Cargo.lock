@@ -7,13 +7,17 @@ name = "RustySolutions"
 version = "0.1.0"
 
 [[package]]
-name = "solution_1_1"
+name = "solution_1_1_1"
 version = "0.1.0"
 
 [[package]]
-name = "solution_1_2"
+name = "solution_1_1_2"
 version = "0.1.0"
 
 [[package]]
-name = "solution_1_3"
+name = "solution_1_1_3"
+version = "0.1.0"
+
+[[package]]
+name = "solution_1_1_4"
 version = "0.1.0"
