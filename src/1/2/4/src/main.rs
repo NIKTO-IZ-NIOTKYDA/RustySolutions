@@ -17,6 +17,5 @@ fn main() {
 }
 
 fn char_to_i32(c: &char) -> i32 {
-    return *c as i32 - '0' as i32;
+    return *c as i32 - 0x30;
 }
-
