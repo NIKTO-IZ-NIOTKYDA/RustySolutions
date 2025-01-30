@@ -7,6 +7,5 @@
 */
 
 fn main() {
-    // i8: Signed, range -128 to 127, can represent negative values.
-    // u8: Unsigned, range 0 to 255, can only represent non-negative values.
+    print!("i8: Signed, range -128 to 127, can represent negative values.\n8: Unsigned, range 0 to 255, can only represent non-negative values.");
 }
