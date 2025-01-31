@@ -9,8 +9,7 @@
 fn main() {
     let num: i32 = 123;
 
-    match String::from(format!("{num}")).chars().collect::<Vec<char>>().first() {
-        Some(last_char) => println!("{}", last_char),
-        None => panic!("String is empty!")
-    }
+    println!("{}",
+        String::from(format!("{num}")).chars().collect::<Vec<char>>().first().unwrap()
+    )
 }
